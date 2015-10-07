@@ -1,0 +1,26 @@
+body {
+    background-color: Lightgray;
+}
+div {
+    border: 1px solid Chocolate;
+    padding-top:2em;
+    padding-bottom:2em;
+    background-color:white;
+}
+.main-header {
+	max-width: 40em;
+	padding-top:3em;
+	margin-top:3em;
+
+}
+ul {
+	background-color:white;
+	margin: 0;
+	padding-left: 40em;
+
+}
+li {
+	display:inline;
+	padding-left: 1em;
+	text-align:right;
+}
