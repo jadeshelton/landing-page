@@ -1,8 +1,8 @@
 body {
-    background-color: Lightgray;
+    background-color: lightgray;
 }
 .top-navigation {
-	background-color::white;
+	background-color::#fff;
 	position: fixed;
 	width: 100%;
 	display:block;
@@ -10,12 +10,12 @@ body {
 
 }
 .content {
-	height:4.375em;
-	width: 60%;
+	height: 70px;
+	width: 970px;
 	padding: 0em 0.938em;
 	margin: 0em auto;
-	background-color:white;
-	min-width: 37.5em;
+/*	background-color:white;
+	min-width: 37.5em;*/
 
 }
 .links {
@@ -29,4 +29,7 @@ li {
 	padding-left: 1em;
 	text-align:right;
 }
-
+.logo {
+	 vertical-align:baseline;
+	 margin-left:6em;
+}
