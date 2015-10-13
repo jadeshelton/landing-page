@@ -7,10 +7,11 @@ html {
 
 html {
 	-webkit-font-smoothing: antialiased;
+		font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: lightgray;
+    background-color: lightgray; 
     font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
@@ -29,17 +30,14 @@ body {
 	width: 60%;
 	padding: 0px 15px;
 	margin: 0px auto;
-	background-color: white;
 	min-width: 37.5rem;
-/*	background-color:white;
-	min-width: 37.5em;*/
 }
 .logo {
 	height:4.375rem;
 }
 .top-navigation .links {
 	float:right;
-	font-family: 'Roboto', sans-serif;
+
 	color: #838994;
 	font-size:16px;
 	margin-top:25px;
@@ -56,4 +54,26 @@ body {
 .top-navigation .links li:hover {
 	cursor:pointer;
 	color: #333333;
+}
+.introduction {
+	background-image: url("../IMAGES/first-background.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;	
+}
+.introduction .content > h1 {
+	text-align:center;
+	color:white;
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+	font-weight: 300;
+}
+.introduction .content > h2 {
+	color: white;
+	text-align: center;
+}
+.buttons {
+	text-align: center;
 }
