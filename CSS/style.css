@@ -64,16 +64,39 @@ body {
 	overflow: auto;	
 }
 .introduction .content > h1 {
+	margin-top: 17.5rem;
+	margin-bottom:0em;
+	font-size: 3.125rem;
+}
+.introduction h1, .introduction h2 {
 	text-align:center;
 	color:white;
-	margin-top: 17.5rem;
-	font-size: 3.125rem;
 	font-weight: 300;
 }
 .introduction .content > h2 {
-	color: white;
-	text-align: center;
+	margin-top:1.25rem;
+	margin-bottom: 0px;
+	font-size: 1.563rem;
+	padding: 0px;
 }
-.buttons {
+.introduction .buttons {
 	text-align: center;
+	color:white;
+	margin-top: 1.563rem;
+}
+button {
+	width: 9.6rem;
+	background-color:#F15A29;
+	border-color:#F15A29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	margin: 0px auto;
+}
+button:hover {
+	background-color: #D9400E;
+	border-color: #CF3D0E;
+	cursor: pointer;
 }
