@@ -68,12 +68,12 @@ body {
 	margin-bottom:0em;
 	font-size: 3.125rem;
 }
-.introduction h1, .introduction h2 {
+.introduction h1, .introduction h3 {
 	text-align:center;
 	color:white;
 	font-weight: 300;
 }
-.introduction .content > h2 {
+.introduction .content > h3 {
 	margin-top:1.25rem;
 	margin-bottom: 0px;
 	font-size: 1.563rem;
@@ -99,4 +99,24 @@ button:hover {
 	background-color: #D9400E;
 	border-color: #CF3D0E;
 	cursor: pointer;
+}
+.cases .content{
+	background-color:#FFF;
+	padding-bottom:15rem;
+	overflow:hidden;
+
+}
+h2 {
+	color:black;
+	text-align:center;
+	vertical-align:baseline;
+	padding-top:3rem;
+	font-size:2.75rem;
+	font-weight:300;
+}
+.devices li{
+	display:inline-block;
+	width:33.3333%;
+	float:left;
+
 }
