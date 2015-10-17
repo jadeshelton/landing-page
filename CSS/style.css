@@ -23,6 +23,7 @@ body {
 	width: 100%;
 	display:block;
 	margin: 0em;
+	z-index: 9999;
 
 }
 .content {
@@ -55,6 +56,9 @@ body {
 	cursor:pointer;
 	color: #333333;
 }
+
+/* THe introduction section */
+
 .introduction {
 	background-image: url("../IMAGES/first-background.jpg");
 	background-position: center bottom;
@@ -62,17 +66,17 @@ body {
 	background-size: cover;
 	height: 45.938rem;
 	overflow: auto;	
+}.introduction h1, .introduction h3 {
+	text-align:center;
+	color:white;
+	font-weight: 300;
 }
 .introduction .content > h1 {
 	margin-top: 17.5rem;
 	margin-bottom:0em;
 	font-size: 3.125rem;
 }
-.introduction h1, .introduction h3 {
-	text-align:center;
-	color:white;
-	font-weight: 300;
-}
+
 .introduction .content > h3 {
 	margin-top:1.25rem;
 	margin-bottom: 0px;
@@ -84,6 +88,9 @@ body {
 	color:white;
 	margin-top: 1.563rem;
 }
+
+/* The buttons */
+
 button {
 	width: 9.6rem;
 	background-color:#F15A29;
@@ -100,23 +107,32 @@ button:hover {
 	border-color: #CF3D0E;
 	cursor: pointer;
 }
-.cases .content{
-	background-color:#FFF;
-	padding-bottom:15rem;
-	overflow:hidden;
 
+/*three image section .cases */
+
+.cases {
+	background-color:white;
+	overflow:hidden;
+	padding-bottom:5rem;
 }
-h2 {
-	color:black;
+.cases .content {
+	margin-top: 7.875rem;
+	color:#1D1E21;
+	padding:none;
 	text-align:center;
-	vertical-align:baseline;
-	padding-top:3rem;
-	font-size:2.75rem;
+}
+.cases h2 {
+	font-size: 2.75rem;
+	margin:1.625rem 0px 3.125rem;
 	font-weight:300;
 }
-.devices li{
-	display:inline-block;
-	width:33.3333%;
+.cases .devices > li {
+	width:33.33333%;
 	float:left;
-
+	display:inline-block;
+}
+.cases .devices h3 {
+	font-weight: 400;
+	font-size:1.563rem;
+	margin: 2.5rem 0 px 1.875rem;
 }
